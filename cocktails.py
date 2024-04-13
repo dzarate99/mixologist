@@ -56,7 +56,7 @@ def processDrink(drink):
         ingredient = drink[ingredientFieldName]
         measure = drink[measureFieldName]
         
-        if ingredient is None  or measure is None:
+        if ingredient is None or measure is None:
             break
         else:
             ingredients.append((ingredient,measure))
